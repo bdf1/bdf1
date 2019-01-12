@@ -1,0 +1,2748 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://numberworld.org/y-cruncher/version_history.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style type="text/css"> 
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #990000;
+}
+h1,h2 {
+    padding-top: 0px;
+	text-align: center;
+
+}
+
+h2 {
+	margin: 0px;
+}
+
+div#wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    width: 1200px;
+	background-color: #EDE8DD;
+	
+}
+
+div#head {
+    
+	
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+div#content {
+	position: relative;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#content_left {
+    
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 780px;
+	margin: inherit;
+	padding: inherit;
+}
+
+div#shortcuts{
+    
+	position: absolute;
+	top: 0px;
+	left: 800px;
+	width: 400px;
+	margin: inherit;
+	padding: inherit;
+}
+
+div#shortcuts2{
+    
+	float: right;
+	display: inline;
+	margin: 5px;
+	background-color: #dddddd;
+}
+
+div#floatright{
+    
+	float: right;
+	display: inline;
+	margin: 5px;
+}
+
+div#version{
+	float: right;
+	display: inline;
+	margin: 5px;
+	width: 380px;
+}
+
+div#rightfloat{
+	float: right;
+	display: inline;
+	margin: 5px;
+	width: 500px;
+}
+
+div#rightfloat400{
+	float: right;
+	display: inline;
+	margin: 5px;
+	width: 400px;
+}
+
+div#rightfloat450{
+	float: right;
+	display: inline;
+	margin: 5px;
+	width: 450px;
+}
+
+div#rightfloat600{
+	float: right;
+	display: inline;
+	margin: 5px;
+	width: 600px;
+}
+
+div#rightfloat-halfgraph{
+	float: right;
+	display: inline;
+	margin: 5px;
+	width: 760px;
+}
+
+div#footer {
+    
+	height: 100px;
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #dae0ec;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.header {
+	font: Arial;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: #dae0ec;
+	
+}
+
+.name_block {
+	font: Arial;
+	text-align: left;
+	color: #005295;
+	font-size: 16px;
+
+}
+
+.front p{
+	margin: 5px;
+}
+	
+.name {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.section_head {
+	border-bottom: 1px solid #434a44;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.sub_head {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.announcement {
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+}
+
+.emphasize {
+	font-size:16px;
+}
+
+.table_title {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.digit {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	text-align: center;
+}
+
+.chart {
+	font-size: 9px;
+	text-align: center;
+}
+
+.time {
+	color: #000080;
+}
+
+.scaling {
+	color: #008000;
+}
+
+p {
+	margin: 0px;
+	font-weight: normal;
+}
+
+ul {
+	text-align: left;
+	font-weight: normal;
+}
+
+a.nav:link { 
+	color: #571963;
+	text-decoration: none;
+}      
+
+a.nav:visited {  
+	color: #666666;
+	text-decoration: none;
+}
+
+a.nav:hover {  
+	color: #005295;
+	text-decoration: none;
+}      
+
+a.nav:active {  
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a {  
+	text-decoration: none;
+}
+
+a:hover {  
+	text-decoration: underline;
+}
+
+img {
+	border-style: none;
+} 
+      
+table, td
+{
+    border-color: #434a44;
+    border-style: solid;
+}
+
+table
+{
+	border-width: 0 0 1px 1px;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+table.invisible
+{
+	border-width: 0 0 0 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+tr.invisible
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0 0 0 0;
+}
+
+td.invisible
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0 0 0 0;
+}
+
+table.zeroborder
+{
+	border-width: 0 0 0 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: normal;
+}
+
+td
+{
+	margin: 0;
+	padding: 4px;
+	border-width: 1px 1px 0 0;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td.center
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 1px 1px 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+td.zeroborder
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0 0 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+tr.zeroborder
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0 0 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+tr.table-left
+{
+    margin: 0;
+    padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+}
+td.table-left
+{
+	margin: 0;
+	padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: left;
+	font-size: 12px;
+}
+
+
+tr.table-right
+{
+    margin: 0;
+    padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+}
+td.table-right
+{
+	margin: 0;
+	padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: right;
+	font-size: 12px;
+}
+
+
+tr.table-versions-title
+{
+	margin: 0;
+	padding: 4px;
+	border-width: 1px 1px 0 0;
+	font-size: 12px;
+	font-weight: bold;
+}
+td.table-versions-title
+{
+    margin: 0;
+    padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+td.table-versions-body
+{
+    margin: 0;
+    padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+
+tr.table-changes-title
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0 0 0 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+td.table-changes-title
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0 0 0 0;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+td.table-changes-left
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0 0 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+td.table-changes-body
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0 0 0 0;
+	text-align: left;
+	font-size: 12px;
+}
+
+
+
+
+
+tr.table-development-title
+{
+    margin: 0;
+    padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+td.table-development-title
+{
+    margin: 0;
+    padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+td.table-development-left
+{
+    margin: 0;
+    padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: center;
+	font-size: 12px;
+}
+td.table-development-body
+{
+    margin: 0;
+    padding: 4px;
+	border-width: 1px 1px 0 0;
+	text-align: left;
+	font-size: 12px;
+}
+
+</style> 
+<style type="text/css">
+table
+{
+    border-width: 0 0 0 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0px 0px 0 0;
+	text-align: left;
+	font-size: 12px;
+}
+</style>
+ <!--ipt src="http://www.google analytics.com/urchin.js" type="text/javascript"></scri-->
+ <!--ipt type="text/javascript">
+ _uacct = "UA 249032 3";
+ urchinTracker();
+ </scri-->
+ <title>y-cruncher - Version History</title>
+</head>
+<body>
+<div id="wrapper">
+<h1>y-cruncher - Version History</h1><p class="digit">(Last updated:
+  <!-- #BeginDate format:Am1 -->January 10, 2019<!-- #EndDate -->)</p>
+<p class="digit">&nbsp;</p>
+<p>&nbsp;</p>
+<p class="sub_head">Back To:</p>
+<ul>
+  <li><a href="http://numberworld.org/">Numberworld Home</a></li>
+  <li><a href="http://numberworld.org/y-cruncher">y-cruncher Home</a></li>
+  <li><a href="http://numberworld.org/y-cruncher/versions.html">Versions</a></li>
+  <li><a href="http://numberworld.org/y-cruncher/#Benchmarks">Benchmarks</a></li>
+</ul>
+<p class="section_head"><strong><a name="current"></a></strong>Version History:</p>
+<p>Download older versions <a href="http://numberworld.org/y-cruncher/versions.html">here</a>.</p>
+<style type="text/css"> 
+table
+{
+    border-width: 0 0 0 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 0px 0px 0 0;
+	text-align: left;
+	font-size: 12px;
+}
+</style>
+<div>
+<table width="1150" border="0">
+  <tbody><tr class="table-changes-title">
+    <td width="158" valign="top" bordercolor="#F0F0F0" class="table-changes-title">Release Date</td>
+    <td width="136" valign="top" bordercolor="#F0F0F0" class="table-changes-title">Version</td>
+    <td width="8" bordercolor="#F0F0F0">&nbsp;</td>
+    <td width="829" bordercolor="#F0F0F0" class="table-changes-title">Changes</td>
+  </tr>
+  <tr class="table-changes-title">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-title"><hr></td>
+  </tr>
+  <tr class="table-changes-title">
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="1_10_2019"></a>January 10, 2019</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.7.9494<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Series polynomials of degree larger than 62 are now disallowed. Polynomials of degree 63 or higher will hang the program.</li>
+        <li>Certain classes of polynomials will cause y-cruncher to error or enter an infinite loop.</li>
+      </ul>
+      <p id="clc">Thanks to &#40077;&#19996;&#26041; for reporting both of these!</p></td>
+	<script type="text/javascript">
+	var t=window.location.search;
+	if(t[0]=='?'){if(t!=""&&t.indexOf("=")!=-1&&t.indexOf("=")<t.length-1)
+	clc.textContent="Thanks to "+decodeURI(t.substr(1,t.indexOf("=")-1))+" for "+decodeURI(t.substr(t.indexOf("=")+1));
+	else
+	clc.textContent="Thanks to "+decodeURI(t.substr(1))+" for reporting both of these!";}</script>
+  </tr>
+  <tr class="table-changes-title">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr class="table-changes-title">
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="1_5_2019"></a>January 5, 2019</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.7.9493<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>Custom Formulas:</strong> y-cruncher can now run a limited set of user-specified formulas. This allows the user to compute more than just the built-in constants. It also allows the user to implement alternative formulas for the existing constants. Sample formulas have been included in the y-cruncher downloads.</li>
+        <br>
+        <li><strong>Catalan's Constant Algorithms:</strong> 3 new algorithms have been added for Catalan's Constant. Due to the speed of these new algorithms, the existing Lupas and Huvent formulas are now outdated. But they will remain in y-cruncher for the time being.</li>
+        <br>
+        <li><strong>Lemniscate with AGM:</strong> The AGM algorithm has been implemented for Lemniscate. This algorithm is about 2x faster than Gauss' formula in memory. But may be slower in Swap Mode.</li>
+        <br>
+        <li><strong>Brent-McMillan Formula with explicit n:</strong> This allows you to run the Brent-McMillan formula for the Euler-Mascheroni Constant with a manually specified <em>n</em> parameter. This is somewhat of a useless feature that has existed internally since 2013.</li>
+        <br>
+        <li><strong>Digit and Validation Output Path Improvements:</strong>
+          <ul>
+            <li>The "-o" command line option will now be used for both the digit output as well as the validation file.</li>
+            <li>A new "-od" option has been added to suppress digit output. This is the new method for disabling output.</li>
+            <li>Added a command line option to set the priority which y-cruncher runs at.</li>
+            <li>When output verification is enabled, there is now an additional verification step to detect data corruption of the source data during digit output that may go undetected in previous versions. </li>
+          </ul>
+        </li>
+        <br>
+        <li>The TBB parallel framework now has  sub-options to tinker with.</li>
+        <br>
+        <li>There is now a command line option to override the process priority that y-cruncher will run at.</li>
+      </ul>
+      <p><strong>Removed Features:</strong></p>
+      <ul>
+        <li>ArcCoth(x) has been removed. It has become superfluous as it remains accessible from the Custom Formula feature.</li>
+      </ul>
+      <p><strong>Re-Tunings:</strong></p>
+      <ul>
+        <li>AMD Jaguar processors will now choose the 11-SNB binary instead of the 08-NHM binary.</li>
+        <li>The TBB parallel framework now uses slightly different library calls which may affect performance.</li>
+      </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>The file extension for configuration files has been changed to ".cfg".</li>
+        <li>The naming of some of the algorithms has been changed.</li>
+        <li>Minor speed differences due to numerous internal refactorings.</li>
+        <li>Non-fatal errors that occur during memory allocation are now logged to the event log.</li>
+        <li>More run-time warnings will now propagate to the client in Slave Mode.</li>
+        <li>The format for the PauseWarning message in Slave Mode has been updated.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-title">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr class="table-changes-title">
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="12_12_2018"></a>December 12, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.6.9491<br>
+      <br>
+      Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed an issue in the Linux versions where old checkpoint files wouldn't get deleted.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-title">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+  </tr>
+  <tr class="table-changes-title">
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="12_2_2018"></a>December 2, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.6.9490<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a serious bug in the Digit Viewer that may cause y-cruncher to <a href="https://github.com/Mysticial/y-cruncher/issues/16">incorrectly compress digits</a>.</li>
+        <li>The stress tester will no longer crash when it fails to allocate memory.</li>
+        <li>Fixed some cases in Swap Mode where it will under-estimate how much storage is actually needed.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+  </tr>
+  <tr>
+    <td rowspan="3" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="11_19_2018"></a>November 19, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><p><strong>v0.7.6.9489<br>
+      <br>
+      Windows</strong></p>
+      <p></p></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a critical 32-bit integer overflow bug in the 32-bit Windows binaries. This was introduced by the 9488 patch and was caught a mere hours after it was released.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><p><strong>v0.7.6.9488<br>
+      <br>
+      Windows + Linux</strong></p></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Untested fix for the <a href="https://github.com/Mysticial/y-cruncher/issues/15">NUMA binding issue on 4-die Threadripper</a> that may cause performance to drop by up to 50%.</li>
+        <li>Fixed some issues with really small swap mode computations.</li>
+        <li>Fixed some minor UI bugs in the node-interleaving frameworks for Linux.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="10_14_2018"></a>October 14, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.6.9487<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed an issue that may cause very small swap mode computations with a high task decomposition to fail.</li>
+        <li>Fixed a crash when saving a configuration in Linux with the libnuma Node-Interleaving allocator.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="9_16_2018"></a>September 16, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.6.9486<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a <a href="https://github.com/Mysticial/y-cruncher/issues/13">bug that causes y-cruncher to crash</a> when saving a configuration file with the Cilk Plus framework.</li>
+        <li>Fixed a bug that causes the program to pause when running the Euler-Mascheroni Constant in swap mode.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="9_6_2018"></a>September 6, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.6.9485<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p>Ugh... As expected, this is turning into one of the buggier releases...</p>
+      <p>&nbsp;</p>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in the Euler-Mascheroni Constant in swap mode where it may fail to resume from a checkpoint.</li>
+        <li>Fixed the "-TD" option for Pi benchmarks.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="8_28_2018"></a>August 28, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.6.9484<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a <a href="https://github.com/Mysticial/y-cruncher/issues/12">bug</a> in the Euler-Mascheroni Constant that may lead to a BufferTooSmallException.</li>
+        </ul>
+      <p><strong>New Features:</strong></p>
+      <ul>
+        <li>Added a "pause:-2" option that will also <a href="https://github.com/Mysticial/y-cruncher/issues/11">suppress pauses even in the event of an error</a>.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="8_11_2018"></a>August 11, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.6.9483<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>18-CNL:</strong> A new binary for Cannon Lake processors that uses the AVX512 IFMA and VBMI instructions. This binary remains untuned and not fully tested. It will be updated in the future along with a proper name when the hardware becomes more readily available.</li>
+        <br>
+        <li><strong>Digit Output Improvements:</strong>
+          <ul>
+            <li>Digit output can now be suppressed. This allows benchmarks to be scripted without hammering the storage device with writes.</li>
+            <br>
+            <li>When hexadecimal digits are enabled, the validation file will include the last 50 - 100 hexadecimal digits the same way that it has always included the last 50 - 100 decimal digits.
+              <p><br>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>When hexadecimal digits are enabled, the computation will include a "hex hash". This pairs with the existing "dec hash".
+              <ul>
+                <li>Dec Hash = <span class="digit">Floor(x * 10^dec) mod (2^61 - 1)</span></li>
+                <li>Hex Hash = <span class="digit">Floor(x * 16^hex) mod (2^61 - 1)</span></li>
+              </ul>
+              <p><br>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>The Digit Viewer has been revamped and completely rewritten:
+              <ul>
+                <li>It is now parallelized and better optimized.</li>
+                <li>Digit hashing and frequencies are now done automatically with compress/decompress streaming.</li>
+                <li>Digit reading is now done using raw (unbuffered) disk I/O. This is needed to avoid the Pagefile Thrash of Death on Windows.</li>
+                <li>More details here: <a href="https://github.com/Mysticial/DigitViewer">https://github.com/Mysticial/DigitViewer</a></li>
+              </ul>
+              <p><br>
+              </p>
+            </li>
+          </ul>
+          <ul>
+            <li>All computations will compute an additional 100 digits beyond the requested precision. These digits are not output anywhere and are kept secret from the user. Instead the SHA256 hash of digits as a 100-byte ASCII string will be written to the validation file.<br>
+              <br>
+              The purpose of this is to help verify subsequent world records. When a world record is set with this feature, there will be a SHA256 hash for the next 100 digits. When the record is broken again (with any application, not just y-cruncher), the person can prove it by producing the digits that hash to this SHA256 hash.</li>
+          </ul>
+        </li>
+        <br>
+        <li><strong>Slave Mode:</strong> Preliminary support has been added for Slave Mode. This allows 3rd party applications to control y-cruncher over TCP. The main motivation is to allow for a 3rd party GUI as there are no plans to do that within y-cruncher. <a href="https://github.com/Mysticial/y-cruncher-GUI">More details here.<br>
+          <br>
+        </a>Note that this feature is still a work in progress. Therefore it is preliminary, incomplete, and not well documented yet. The current implementation is not expected to be fully usable and will require user feedback to mature.</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed an integer overflow bug that may cause 32-bit computations of e to fail when more than 2<sup>32</sup> terms are needed.</li>
+        <li>The Pagefile Thrash of Death that may happen at the end of a computation has been fixed by the rewrite of the Digit Viewer.</li>
+        <li>Fixed an issue that may cause Swap Mode to fail on Linux when O_DIRECT isn't supported. <a href="https://github.com/Mysticial/y-cruncher/issues/8">Details here</a>.</li>
+        <li>Fixed an issue that may cause the I/O Benchmark to fail with a "BufferTooSmallException".</li>
+        <li>Fixed a bug with the Euler-Mascheroni Constant that may cause the program to hang and consume lots of memory. This is caused by a pathological failure of the series summing logic due to the non-convergent behavior of the refinement term in the Brent-McMillan Formula.</li>
+        <li>Fixed a bug with the C malloc() allocator that may cause a "Buffer is misaligned." error in swap mode.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Series summation is now more aggressively parallelized to improve CPU utilization on systems with many cores.</li>
+        <li>Slightly faster division and inverse square root.</li>
+      </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>Minor performance fluctuations across all processors due to internal refactorings and tuning parameter updates.</li>
+        <li>Minor UI changes due to internal refactorings.</li>
+        <li>Startup command line options are now documented in "Command Lines.txt".</li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>Version 0.7.6 lands at the end of a very large refactor/rewrite of nearly all of y-cruncher's series summation code.</p>
+      <p>&nbsp;</p>
+      <p>Due to the scope of this refactor along with the fragility of the original code, there is non-zero probability that something will break in this version. Please submit a bug report if you observe errors or large increases in memory usage from older versions of y-cruncher.</p></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_23_2018"></a>February 23, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.5.9481<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug that caused computations of e in ram only mode to compute e - 2 instead of e. This was due to some recent bad refactoring. It was not caught during testing since the spot checker only checks a subset of the digits.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="1_21_2018"></a>January 21, 2018</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.5.9480<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>Preliminary support has been added for Thread Building Blocks (TBB) for all 64-bit Windows binaries. This was prompted by the Cilk Plus deprecation. Support for Linux may come at a later time.</li>
+        <br>
+        <li>When a soft error is encountered in the stress-tester, it will  display the logical core # that it occurred on. This will aid the user in tracking down "weak" cores during overclocking.</li>
+        <br>
+        <li>A new verification step has been added to complement the base conversion verification. This step reads back the decimal digits that were output to disk to make sure they are intact. This protects against several classes of errors that were previously unchecked:
+          <ol>
+            <li>Errors in formatting the digits. (i.e. converting from binary to ASCII)</li>
+            <li>Errors during the compression of the digits.</li>
+            <li>Errors in  writing the digits to disk.</li>
+          </ol>
+          <br>
+          Like the base convert verification, this digit output verification is not part of the computation. Therefore, it is also excluded from the official benchmark times. This also maintains benchmark comparability with older
+          versions 
+          of y-cruncher.</li>
+        <br>
+        <li>Both base convert and decimal digit verification are now classified as "Output Verification". They are disabled by default for casual benchmarks and enabled by default in the Custom Compute menu. Enabling them will be mandatory when claiming world record size computations.</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug that may cause the base conversion to fail with, "Overlap Mismatch" error.</li>
+      </ul>
+      <p>&nbsp;</p>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Improved CPU utilization on systems with a lot of cores.</li>
+        <li>More optimizations that benefit memory-bound systems.</li>
+        <li>More AVX512 optimizations.</li>
+      </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>Minor performance fluctuations across all processors due to internal refactorings.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="12_2_2017" id="12_2_2017"></a>December 2, 2017</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.4.9478<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a serious bug that could cause very large computations to fail a redundancy check.<br><br>
+          This source of the bug is a refactoring that occurred between v0.7.3 and v0.7.4. Under very specific circumstances, it may cause a computational thread to overrun its designated scratch buffer and corrupt the memory of other threads.<br><br>
+          The bug was missed by unit tests. And since it only reproduces on extremely large computations, it was also missed by the large scale integration tests. Thanks to Susumu Tsukamoto for catching this.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="10_14_2017"></a>October 14, 2017</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.4.9477<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>Stress-Tester Revamp:</strong>
+          <ul>
+            <li>New tests: BBP and SFT. These two tests are designed to stay in cache and avoid the memory bottleneck that plagues the Skylake X processor line.</li>
+            <li>Full control has been added to choose which logical cores to test and which to leave idle.</li>
+            <li>On Linux, thread pinning is now more robust to unusual hardware configurations like disabled cores.</li>
+            <li>Tests now display how much memory is actually used.</li>
+            <li>Tests now show a slider indicating whether it is CPU-bound or memory-bound.</li>
+            <li>The stress-tester now has support for configuration files.</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug that caused excessive memory usage with large task decompositions. It is now possible to do 25 billion digit Pi benchmarks within 128GB of memory with a lot of threads.</li>
+        <li>Fixed a subset of the BufferTooSmallException errors that occur in swap mode computations using a very small amount of memory. These are caused by incorrect pre-computation memory calculations. A more comprehensive fix is slated for the next feature release.</li>
+      </ul>
+      <p><strong>Retunings:</strong></p>
+      <ul>
+        <li>The "00-x86", "04-P4P", and "05-A64 ~ Kasumi" binaries have been   re-tuned for AMD Phenom II.</li>
+        <li>"16-KNL" and "17-SKX" have been retuned for smaller caches.</li>
+        <li>Tuning parameters for most of the other binaries have been updated.</li>
+        </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Bulldozer: ~6%</li>
+        <li>Haswell: ~4%</li>
+        <li>Skylake: ~5%</li>
+        <li>Ryzen: ~6%</li>
+        <li>Skylake X: ~10%</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="9_14_2017"></a>September 14, 2017</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.3.9475<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug that may cause ram only computations of e to fail with "Memory Allocation Failed".</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="8_15_2017"></a>August 15, 2017</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.3.9474<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug that prevented the I/O benchmark from being run from a config file via command line.</li>
+        <li>Fixed a bug in the stress-tester that may cause improper thread binding.</li>
+        <li>Errors during stress-testing will be printed out immediately.</li>
+        <li>Speculative fix for bugged NUMA detection on AMD Threadripper and Epyc on Linux.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="7_12_2017"></a>July 12, 2017</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.3.9472<br>
+        <br>
+Windows</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in Windows involving processor groups that prevents the stress-tester and the Push Pool framework from setting thread affinities on AMD Epyc systems with exactly 128 vcores. (Thanks to Dave Graham for reporting this.)</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="7_6_2017"></a>July 6, 2017</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.3.9471<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>17-SKX ~ Kotori:</strong> A new binary tuned for Skylake Purley processors with full-throughput AVX512.</li>
+        <br>
+        <li><strong>16-KNL:</strong> An untuned AVX512 binary that will run on Knights Landing Xeon Phi host processors.</li>
+        <br>
+        <li><strong>Configuration Files:</strong>
+          <ul>
+            <li>The Custom Compute and I/O Benchmark menus now have support for saving to and loading from configuration files.</li>
+            <li>The functionalities for these menus can also be triggered directly from the command line with a configuration file. </li>
+          </ul>
+        </li>
+        <br>
+        <li><strong>Memory Allocator Improvements:</strong>
+          <ul>
+            <li>New memory allocators that support node interleaving. This may improve performance on NUMA systems.</li>
+            <li>Allocators now have sub-options that can be selected.</li>
+            <li>The memory allocator can now be set with the command line options.</li>
+            <li>On Windows, it is now possible to lock pages without using large pages. </li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Improved detection of available memory in Linux. In the past, it only detected unused pages. Now it detects all available memory including those used for caching which can be released if needed.</li>
+        <br>
+        <li>Invalid command-line options will now terminate the program instead of being silently skipped.</li>
+        <br>
+        <li>Fixed a bug in swap mode that causes the primary formula for the Euler-Mascheroni Constant to require much more memory than is necessary. This bug was introduced when fixing the "working memory is too small" bug in v0.7.2.</li>
+        <br>
+        <li>Fixed an issue in the Custom Compute swap mode menu that may cause it to fail an internal assertion. This is also related to the Euler-Mascheroni Constant memory calculations.</li>
+      </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>The dynamically-linked Linux binaries now have a dependency on libnuma due to the new node-interleaving allocators.</li>
+        <li>The concept of local and global "Min I/O Size" has been renamed and replaced with "Bytes per Seek". </li>
+      </ul>
+      <p>&nbsp;</p>
+      <p>The new features in this release may seem a bit loaded in terms of their magnitude given that it's only been a 4 months since the last major release. But in reality, most of the stuff has been a work-in-progress for a long time.</p></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="6_3_2017"></a>June 3, 2017</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.2.9469<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a serious bug in the Push Pool that could cause failures when limiting the # of threads. This bug was introduced in one of the many refactors between v0.7.1 and v0.7.2.</li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="3_14_2017"></a>March 14, 2017</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.2.9468<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p>The refactorings from v0.7.1 continue into this release. Other than that, there are few user-visible changes.</p>
+      <p>&nbsp;</p>
+      <p>Due to the time-constraints with trying to make this happen for Pi Day, this release is not as well tested as it should've been. So don't be surprised if stuff breaks.</p>
+      <p>&nbsp;</p>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>The Linux binaries will now properly read the CPU topology on multi-socket systems.</li>
+        <li>Fixed an integer overflow bug in I/O benchmark for the x86 binaries.</li>
+        <li>Fixed a corner case where computations of the Euler-Mascheroni Constant may fail with, "Working memory is too small."</li>
+      </ul>
+      <p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>17-ZD1 ~ Yukina:</strong> A new binary tuned for AMD Zen processors.</li>
+        <br>
+        <li>In Windows, y-cruncher will automatically create a minidump file if it crashes. This should make it easier to debug crashes which cannot be reproduced locally in the development environment.</li>
+        <br>
+        <li>The BBP app now has the option to pin all threads to different cores. This solves the problem of imbalanced processor groups.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Minor speedups for most processors:
+          <ul>
+            <li>Penryn: ~6%</li>
+            <li>Nehalem: ~7%</li>
+            <li>Sandy Bridge: ~5%</li>
+            <li>Bulldozer: ~7%</li>
+            <li>Haswell: ~7%</li>
+            <li>Skylake: ~5%</li>
+            <li>Zen: ~14%</li>
+          </ul>
+        </li>
+        </ul>
+      <p><strong>Retunings:</strong></p>
+      <ul>
+        <li>The default "Min IO" parameter has been raised to 1 MB to keep inline with modern hard drives.</li>
+        </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>The binaries have been renamed. Instead of using the name of an instruction set, they now use a year and an acronym for the processor architecture instead. This was done because there are simply too many instruction sets and newer ones don't necessarily imply the existance of all the older ones.        </li>
+      </ul></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="9_16_2016"></a>September 16, 2016</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.1.9466<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in swap mode that causes objects to under-allocate. This sometimes leads to assertion failures about writing beyond the end of a swap file. This bug dates all the way back to the "risky" refactorings from v0.6.6. This took almost 2 years to catch because it only seems to affect the Euler-Mascheroni Constant.</li>
+      </ul>
+<p>For what it's worth, v0.7.1 has been surprisingly stable given the sheer magnitude of the internal changes.</p></td>
+  </tr>
+  <tr>
+    <td colspan="4" valign="top" bordercolor="#F0F0F0" class="table-changes-left"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="5_16_2016"></a>May 16, 2016</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.7.1.9465<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p>This is the first version since v0.6.1 that is dedicated primarily to paying back technical debt. While there are no major functional changes, expect to see a lot of minor differences from v0.6.9 which are remnant  of the internal refactorings.</p>
+      <p>&nbsp;</p>
+      <p><strong>New Features:</strong><br>
+      </p>
+      <ul>
+        <li><strong>Spot Checking:</strong> For computations of major constants, the digits are automatically spot-checked against a table of known digits. This was originally an internal feature meant to streamline QC testing. But it turned out to be useful enough to enable publicly. This feature completely replaces the ad hoc digit-checker used for Pi benchmarks.</li>
+        <br>
+        <li><strong>x64 ADX ~ Kurumi:</strong> A new binary tuned for desktop Skylake processors. It utilizes the new add-with-carry instructions. This binary will also run on Broadwell processors.</li>
+        <br>
+        <li>The x86 binary (no SSE) is back. It disappeared for all of v0.6.x for performance reasons, but it's back for v0.7.1. The binary won't be able to run on any old processors anyway since Windows Vista or later is a requirement. But it's there for the purpose of comparing the effects of the various instruction sets.</li>
+        <br>
+        <li>Disk I/O buffer sizes are now configurable. In the past, they were locked to 64MB/path. This resulted in suboptimal performance when the path(s) were themselves a RAID of multiple drives.</li>
+        <br>
+        <li>When entering the number of digits, you can now specify suffixes. (e.g. "25m", "10b")</li>
+        <br>
+        <li>y-cruncher will now attempt to use large pages and lock them in memory to prevent destructive disk swapping by the OS.</li>
+      </ul>
+      <p><strong>HWBOT Integration Improvements:</strong></p>
+      <ul>
+        <li>Improved detection of the processor topology.</li>
+        <li>Added detection of the operating system version.</li>
+        <li>Added detection for the motherboard and memory configuration.</li>
+        <li>Added detection of the reference clock.</li>
+        <li>The validation files have been renamed so that they don't overwrite each other anymore.</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Previously, y-cruncher would fail to pick up the username when running the binaries directly. This has been fixed.</li>
+        <br>
+        <li>Unicode is now properly handled everywhere in the program. Note that the ability to <em>display</em> unicode characters is still subject to the limitations of the console window.</li>
+        <br>
+        <li>Fixed a bug where checkpoint-restart would fail if any path had an equals character (=) in it.</li>
+        <br>
+        <li>The stress-tester and BBP app will now be able to use multiple processor groups on Windows.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Global retunings for all processor-specific binaries. Expect both speedups and slowdowns across the board for all computations and on all processor targets. This is most noticable on older processors.</li>
+        <br>
+        <li>A custom thread pool has been added to the parallel frameworks. This is the default for Linux. On Windows, it is the default when there is only one processor group.</li>
+        <br>
+        <li>Swap mode computations are slightly more aggressive with keeping things in memory.</li>
+        <br>
+        <li>The initial memory allocation is now parallelized.</li>
+      </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>y-cruncher no longer requires administrator privileges to run basic computations. Instead, it will request that it be re-run with elevation for the following features:
+          <ul>
+            <li>Swap mode in Windows: Requires "SeManageVolumePrivilege".</li>
+            <li>Large  pages in Windows: Requires "SeLockMemoryPrivilege".</li>
+            <li>Locked pages in Linux: Requires "CAP_IPC_LOCK".</li>
+          </ul>
+        </li>
+        <br>
+        <li>In Windows, when you run y-cruncher by double-clicking, it will set the console window dimensions to 80 x 25. Windows has historically defaulted to a window size of 80 x 25. But in Windows 10, they increased this to 120 x 30 - which looks a bit weird.</li>
+        <br>
+        <li>The Custom Compute menu options have been rearranged a bit.</li>
+        <br>
+        <li>The licensing has been reworded to explicitly allow the use of y-cruncher for tech reviews even if they are for commercial purposes.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="3_1_2016"></a>March 1, 2016</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.9.9464<br>
+        <br>
+Windows + Linux</strong></td>
+    <td valign="top" bordercolor="#F0F0F0">&nbsp;</td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Checkpoint restart will now properly save and restore the parallel framework. Previously, it would always load the default framework upon resuming a computation from a checkpoint. This bug has existed since v0.6.8 when parallel frameworks were added.</li>
+        <br>
+        <li>The framework threads will also be saved and restored across checkpoints.</li>
+        <br>
+        <li>Fixed a bug where the program may improperly detect the number of logical processors on Windows Server 2012 R2. This may also apply to other versions of Windows as well. (Thanks to Mike A for reporting this and suggesting a fix.)</li>
+        <br>
+        <li>Fixed a bug in the x86 binaries that would prevent the I/O benchmark from using more than 4GB of disk.</li>
+        <br>
+        <li>Fixed a bug in the Digit Viewer where it fails to print new lines when counting digit frequencies.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>The threshold for defaulting to Cilk Plus on Windows has been increased from 33 to 65 logical cores.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="12_5_2015"></a>December 5, 2015</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.9.9462<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>On Windows, partial support has been added for <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd405503%28v=vs.85%29.aspx">Processor Groups</a>*:
+          <ul>
+            <li>The AVX, XOP, and AVX2 binaries are now able to detect all the logical cores in the system even if it exceeds 64.</li>
+            <li>The AVX and AVX2 binaries will default to Cilk Plus when there is more than one processor group.</li>
+          </ul>
+        </li>
+        <li>Support for Cilk Plus has been added for Linux.</li>
+        <li>The maximum task decomposition has been increased from 256 to 65,536.</li>
+      </ul>
+      <p>*This feature has not been added to the older SSE binaries because it requires Windows 7. As of v0.6.8, y-cruncher maintains backwards compatibility with Windows Vista. But all the AVX binaries require Windows 7 SP1 anyway, so nothing is lost by using Win7-specific API calls. </p>
+      <p>&nbsp;</p>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>The app will no longer crash when AVX is disabled on a processor that supports it. This was a Visual Studio bug that was fixed by upgrading to Visual Studio 2015.</li>
+        <li>The command line option, "-C:-1" for compressing to a single file has been fixed. This was due to the (incorrect) use of an unsigned integer parser which parses -1 as zero thereby disabling compression.</li>
+        <li>The dispatcher will select AVX2 instead of SSE3 for AMD Zen.</li>
+        <li>Swap mode computations may cause excessive disk swapping by the OS. This has been alleviated by reducing the default memory usage from 31/32 of available memory to 15/16.</li>
+      </ul>
+      <p><strong>Changes:</strong></p>
+      <ul>
+        <li>The Linux version is now available in both static and dynamic binaries. The static binaries are the most portable, but they lack Cilk Plus. The dynamic binaries support Cilk Plus, but has a dependency on Glibc-2.19 (and possibly others). This unfortunate DLL hell is because <a href="https://www.cilkplus.org/faq/there-version-intel-cilk-plus-provides-statically-linked-libraries">Intel refuses to provide Cilk Plus as a static library</a>.</li>
+        <li>The ".out" extension for the Linux binaries has been removed. This was some very old legacy stuff that had something to do with GCC outputting "a.out" by default.</li>
+        <li>On Linux, Cilk Plus is the default for everything. This will improve the performance for small computations and on systems with many cores. But it may also cause minor performance regressions under some situations.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>On Windows, the binaries that support Cilk Plus will default to Cilk Plus when there are more than 32 logical cores.</li>
+        <li>Minor speedups for specific architectures.</li>
+      </ul>
+      <p><strong>Compiler Upgrades:</strong></p>
+      <ul>
+        <li>Windows: Visual Studio 2013 -&gt; 2015</li>
+        <li>Linux: GCC 4.8 -&gt; 5.1</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="5_7_2015"></a>May 7, 2015</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.8.9461<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in the x86 binaries that was causing excessive memory usage.</li>
+        <li>Fixed a performance regression from v0.6.7 of up to 10% on older processors. This was the result of a bad refactor that accidentally replaced the size of the LLC (last level cache) with that of the L1 cache. Oops...</li>
+        <li>Fixed a bug in the BBP app where the compile-time CPU-dispatcher caused the "x64 SSE4.1 ~ Ushio" binary to use the "default" path instead of the SSE4.1 path.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="3_17_2015"></a>March 17, 2015</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.8.9460<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a performance regression from v0.6.7 that could slow down Haswell processors by as much as 5%.</li>
+        <li>Fixed a bug in the x86 binaries that would cause stack corruption when calculating the memory requirements for a computation larger than ~500 billion digits. This bug has been there since v0.6.1.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="3_14_2015"></a>March 14, 2015</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.8.9458<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>The <a href="http://numberworld.org/programs/#ycruncher_BBP">BBP side-project</a> from 5 years ago has been revived, rewritten, and integrated into y-cruncher.</li>
+        <li>The Digit Viewer has also been re-integrated into y-cruncher.</li>
+        <li>The multi-threading framework has been revamped. Now you can choose from several parallel computing frameworks. This feature is mostly experimental for now as the options vary by binary and are quite limited on Linux.</li>
+      </ul>
+<p><strong>Fixes:</strong></p>
+<ul>
+  <li>Fixed a rare but potentially serious bug in the basecase multiplication where a carryout may be missed. This was introduced in v0.6.6 when y-cruncher started using add-with-carry intrinsics. This only affected the 64-bit Windows binaries. The Linux versions are unaffected since GCC lacked these intrinsics.</li>
+</ul>
+<p><strong>Limits:</strong></p>
+<ul>
+  <li>The theoretical limit of y-cruncher has been increased to 10<sup>15</sup> decimal digits for all constants.</li>
+</ul>
+<p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>The Windows versions now use thread pools by default.</li>
+        <li>Other miscellaneous optimizations mostly affecting AMD processors.</li>
+        </ul>
+      <p><strong>Changes:</strong></p>
+      <ul>
+        <li>The concept of "threads" has been replaced with "Task Decomposition" and "Parallel Framework". In the past, a computation was run using N threads. Now it is run using framework X with a task decomposition of Y. Both the framework and the task decomposition can be manually set.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_8_2015"></a>February 8, 2015</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.7.9457<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Swap Mode Improvements:</strong></p>
+      <ul>
+        <li>Swap mode computations will now create a folder for the swap files. When multiple paths are used, each folder will have a unique name. This makes manual backups easier.</li>
+        
+        <li>A swap mode multiplication tester has been added to the advanced options. Anyone who is attempting a world record with y-cruncher should first run this tester to sanity check the program's ability to do arithmetic at the target precision.</li>
+        <li>The I/O Benchmark has been revamped:
+          <ul>
+            <li>The old benchmark for strided access was vulnerable to request coalescing which cannot happen in a real computation. This was producing inflated bandwidth numbers. This has been somewhat mitigated in this version.</li>
+            <li>The recommendations have been updated to be more relevant for newer hardware.*</li>
+          </ul>
+        </li>
+        </ul>
+      <p>*Based on the runtime stats of the 12.1 and 13.3 trillion digit Pi computations, the new recommendation is to have an IO/compute ratio of 2.0. (i.e. the disk bandwidth should be double the compute bandwidth.) But the reality is that this will be very difficult to achieve on a modern high-end processor using conventional hard drives. This is the unfortunate result of the ever increasing performance gap between CPU and disk.</p>
+<p>&nbsp;</p>
+      <p>For example, a stock i7 5960X would require around 6 GB/s of disk bandwidth. At 100 MB/s per hard drive, that would be 60+ drives assuming linear scaling. While it is easier to do it using SSDs, they are smaller in size. Furthermore, the sheer volume of writes that y-cruncher will issue means that if you want to use SSDs, you need to be willing to expend them like consumables.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Fixes:</strong></p>
+<ul>
+  
+        <li>Fixed a serious bug that would cause large multiplications to hit an assertion failure under the right conditions.</li>
+        <li>In Linux, swap files are now created with only the necessary permissions. (read+write for owner)<br>
+          In the past, they were created with permissions 777 (everything). This was a huge oversight dating back to 2010 when the program was first ported to Linux.</li>
+        <li>Fixed a problem where swap mode in Linux wouldn't clean up the "pathcheck.ysf" file.</li>
+        <li>Fixed a minor console coloring problem.</li>
+  <li>Fixed a minor bug in swap mode that could cause suboptimal algorithm selection.</li>
+  <li>Fixed a bug in the multi-layer raid-file implementation that may cause the program to crash. This bug has existed since v0.6.1 and is extremely rare - requiring degenerate input data which may be impossible outside of a developer build.</li>
+</ul>
+<p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>The XOP and AVX2 binaries are now faster.</li>
+        <li>The default "Min-IO Size" parameter has been reduced from 1MB to 256k.</li>
+        </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>On Windows, the stress tester now runs in the lowest possible priority to ensure responsiveness of CPU monitoring programs which also run in low priority.</li>
+        <li>On Windows, the default process priority has been reverted to "Below Average" for the same reason. As always, this priority can always be changed via Task Manager.</li>
+        <li>The minimum value for the "Min-IO Size" parameter has been reduced from 256k to 4k. SSDs as well as some hard drive configurations have very low average seek latencies which can benefit from a smaller Min-IO parameter.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="12_21_2014"></a>December 21, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.6.9452<br>
+      <br>
+      Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a problem where the "Min I/O" parameter would be incorrectly set when resuming from a computation using more than one drive. This bug has performance consequences for large swap mode computations.</li>
+        <li>Fixed an issue that could prevent the program from detecting errors when performing swap mode multiplications. Anything that could allow errors to go undetected is serious since it means that a computation could finish with the wrong digits.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="11_19_2014"></a>November 28, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.6.9451<br>
+        <br>
+        Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>Fixed a problem reported by Matt Hesse where the Linux SSE3 binary would instantly fail on older Intel processors.</p>
+<p>&nbsp;</p>
+      <p>The problem is that  the SSE3 binary was (incorrectly) compiled with "-march=barcelona" when it should have been "-mtune=barcelona". This will enable AMD-specific Advanced Bit Manipulation (ABM) instructions which did not exist on Intel processors prior to Haswell.</p></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="11_19_2014"></a>November 19, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.6.9450<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>Fixed a bad regression in swap mode where disk I/O errors would not stop the computation. Instead, they would be ignored and the computation would continue with corrupted data.</p>
+      <p>&nbsp;</p>
+      <p>Blame this on bad refactoring and insufficient corner-case testing...</p></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="11_5_2014"></a>November 5, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.6.9449<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body">      <p>In memory of my grandfather who passed away last month. He loved numbers and is probably why I do too...</p>
+      <p>&nbsp;</p>
+      <p><strong>New Features:</strong></p>
+      <ul>
+        <li>
+          <p>Command Line Options</p>
+        </li>
+        <li>A "Stop on Error" option in the stress-tester to halt when an error is detected.</li>
+        </ul>
+      <p><strong>Critical Fixes:</strong></p>
+      <ul>
+        <li>Fixed an issue that can cause failures when using a non-power-of-two number of threads.</li>
+        <li>Fixed an issue that will cause most computations larger than 20 trillion digits to fail. This bug has existed since v0.6.1 and is caused by an off-by-one error in the creation of the precomputed twiddle factor tables.</li>
+        <li>Fixed an issue in the 32-bit versions that would cause Pi computations larger than 40 billion digits to fail the base convert verification. This was caused by an integer overflow in the "size_t" datatype when a 64-bit file offset should have been used instead. This bug has existed since v0.6.1 and was never caught because 32-bit y-cruncher has never been tested at such large sizes until now. (v0.6.1 does not support swap mode for Pi, so v0.6.2 is actually the earliest version that is affected.)</li>
+        </ul>
+      <p><strong>Minor Fixes:</strong></p>
+      <ul>
+        <li>Fixed some crashes that may occur when using a very large number of threads.</li>
+        <li>Fixed an issue when attempting to print a line that is longer 79 characters.</li>
+        <li>Fixed an issue in the I/O Benchmark that may cause parity failures under RAID 3.</li>
+        <li>Fixed another issue with detecting OS support for AVX.      </li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>
+          <p>Swap mode computations now require ~10% less disk space than before.</p></li>
+        <li>Minor overall speedups.</li>
+        </ul>
+      <p><strong>Retunings:</strong></p>
+      <ul>
+        <li>In Windows, the default process priority has been changed to "Normal". It used to be "Below Average".</li>
+        <li> Threads that perform disk I/O now run at the maximum priority that the OS will allow.</li>
+        <li>The program has been retuned in various ways. So expect some performance differences (both up and down) from the previous version.</li>
+        <li>The SSE3 binaries have been retuned in favor of larger computations. So they are faster for large computations, but slower for small ones. (similar to the SSE4.1 and AVX binaries in v0.6.3)</li>
+      </ul>
+      <p><strong>Internal Changes:</strong></p>
+      <ul>
+        <li>The compilers have been upgraded:
+          <ul>
+            <li>Intel Compiler (13 -&gt; 14)</li>
+            <li>Visual Studio 2013 (Original -&gt; Update 2)</li>
+          </ul>
+        </li>
+        </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="8_23_2014"></a>August 23, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.5.9444b<br>
+      (fix 2)<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>Fixed a bug in the base conversion that may cause a computation in swap mode to enter an infinite loop.</p>
+      <p>(Credit to Yifang Sun for discovering this.)</p>
+<p>&nbsp;</p>
+      <p>This bug has existed since v0.6.1 and only occurs when the number of threads is small (1 or 2). The cause of the bug is  a subtle design flaw in the handling of misaligned data sizes. The fix was to align the data and delete the flawed misalignment code.</p></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="7_24_2014"></a>July 24, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.5.9443b<br>
+      (fix 1)<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>Fixed a serious bug in the swap file implementation that may cause incorrect disk I/O leading to data corruption and ultimately an incorrect computation.</p>
+      <p>&nbsp;</p>
+      <p>This bug only affects swap mode and is most likely to affect the Euler-Mascheroni Constant's primary algorithm. </p>
+      <p>&nbsp;</p>      <p>The only change in this version is a single if-statement. Nevertheless, all bugs that affect the correctness of the computed digits are considered "serious" bugs that warrant an immediate patch and an unscheduled release.</p></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="5_25_2014"></a>May 25, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.5.9442<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>x64 AVX2 ~ Airi: </strong>A new binary tuned for Intel Haswell processors. It uses AVX2, FMA3, and BMI2 instructions.</li>
+        <li>The CPU dispatcher has been added to the Linux version.</li>
+        <li>Attempting to run a binary that is not compatible with the host will give a warning. An incompatible binary <em>may</em> still be able to run. But don't count on it.</li>
+        </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed the detection of AVX support by the OS. Previous versions only checked the OS version. It did not check if XSAVE was actually enabled to run AVX.</li>
+        <li>Units for memory have been changed to MiB/GiB/TiB etc... They have always been in binary, but the old labels were unclear as to whether it was binary or decimal.</li>
+        <li>The Linux version will attempt to reset the console colors to their defaults when the program exits.</li>
+        </ul>
+      <p><strong>Removed Features:</strong></p>
+      <ul>
+        <li><strong>x64 SSE4.1 ~ Nagisa:</strong> This binary was tuned for my Harpertown workstation (Core 2 Penryn). But Core 2 is pretty old now and this binary has become redundant of the "x64 SSE4.1 ~ Ushio" binary. So not much is lost by dropping it. Getting rid of it also reduces the size of the download.</li>
+      </ul>
+      <p><strong>Internal Changes:</strong></p>
+      <ul>
+        <li>The entire CPU dispatching framework has been completely rewritten from scratch.</li>
+        <li>The underlying tool-chain has been completely revamped for this release. The AVX and AVX2 binaries use the Intel Compiler 13. The rest of them use Visual Studio 2013.</li>
+        <li>No optimizations have been done since the last release. But because of the compiler upgrades, there will be slight differences in performance since the previous version.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="3_14_2014"></a>March 14, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.4.9424<br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>x64 XOP ~ Miyu:</strong>
+          <ul>
+            <li>A new binary tuned for AMD Bulldozer line processors. It uses FMA4 and XOP instructions.</li>
+            <li>Up to 10% faster than the SSE3 binary. (usually about 8% faster for large computations)</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in the inverse square root code that may cause the routine to under-estimate the amount of memory that is needed. The result is memory corruption when the computation uses more than is allocated.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_20_2014"></a>February 21, 2014</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.3.9416b<br>(fix 1)</strong><strong><br>
+        <br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>Bug fixes. One of which was bad enough to warrant patching v0.6.3 instead of waiting for v0.6.4.</p>
+      <p>&nbsp;</p>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a display issue where the secondary formula for Log(n) would show up as the "Primary Machin-Like Formula".</li>
+        <li>Fixed an issue in the Stress Tester where certain classes of soft-errors would not get reported.</li>
+        <li>Fixed a serious bug in the SSE3 binaries that would sometimes cause very large multiplications to fail.*</li>
+      </ul>
+      <p>*This bug was introduced in v0.6.3 when the VST algorithm was refactored. I rewrote some of the processor-specific macros and screwed up the SSE3 version. The bug is rare and does not affect the SSE4.1 or AVX binaries.</p>
+<p>&nbsp;</p>
+      <p>This slipped through internal testing because it is rare and the SSE3 binaries are not tested as much as the SSE4.1 and AVX binaries.</p></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="12_29_2013"></a>December 29, 2013</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.3.9415</strong><strong><br>
+<br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>The Digit Viewer has been (almost) entirely rewritten. <a href="https://github.com/Mysticial/DigitViewer">It has been open-sourced on my GitHub.</a></p>
+      <p>&nbsp;</p>
+      <p><strong>New Constants:</strong></p>
+      <ul>
+        <li>Lemniscate Constant</li>
+        <li>Euler-Mascheroni Constant: Not really new to y-cruncher, but it's back after disappearing for two versions.</li>
+      </ul>
+      <p><strong>New Features:</strong>
+      </p>
+      <ul>
+        <li>The Digit Viewer can now count the # of occurences of each digit.</li>
+        <li>The same digit counts are now logged in the validation files. This is useful for making sure that the process of writing the digits to disk is actually correct.</li>
+        <li>Errors are now more descriptive. This should aid in identifying whether issues are software or hardware related.</li>
+        <li>The validation files now contain a hash for the decimal digits. This can be used to verify that digits are correctly written to disk.</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>The Linux versions now correctly use O_DIRECT for raw I/Os.</li>
+        <li>AMD Bulldozer line processors will now choose "x64 SSE3 ~ Kasumi" instead of "x64 AVX ~ Hina". This is because 256-bit AVX performance on Bulldozer and Piledriver processors is worse than SSE3.<br><br>
+        </li>
+      </ul>
+      <p><strong>Tweaks:</strong></p>
+      <ul>
+        <li>The "x64 SSE4.1 ~ Ushio" and "x64 AVX ~ Hina"
+          binaries have been retuned. They are slightly faster for large computations (&gt; 1 billion digits). But performance for small computations has been decreased slightly.</li>
+        <li>The VST algorithm has been refactored in preparation for future instruction sets. So there will be some performance differences.</li>
+      </ul>
+      <p><strong>Changes:</strong></p>
+      <ul>
+        <li>The VST algorithm warning for AVX-capable processors has been removed. Prime95 appears to be more stressful now that it has support for AVX.</li>
+        <li>Checkpoints are now overlapping. Old checkpoints are not destroyed until the new checkpoint has been made. Previously, there were small portions of time when there would be no checkpoint alive. So if an error occured at just the right time, you'd be screwed.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="6_16_2013"></a>June 16, 2013<br>
+June 30, 2013</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>v0.6.2.9316</strong><strong><br>
+      v0.6.2.9322<br>
+        <br>
+        Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>This release of the v0.6.x series adds the swap modes and checkpoint restart.
+      
+    </p>
+      <p>&nbsp;</p>
+      <p><strong>New Features:</strong></p>
+      <ul>
+        <li>Huvent's Formula for Catalan's Constant.</li>
+        <li>Swap Modes and Checkpoint restart have been added for all constants that v0.6.2 supports.</li>
+        <li>Resuming from a checkpoint will automatically remove all non-checkpoint files leftover from an interrupted computation.</li>
+      </ul>
+      <p>Note that the checkpoint-restart in this version (0.6.2) has more granularity than in earlier versions. Checkpoints can now be made deep into the Binary Splitting recursions of all the series-based constants. Therefore the average time between checkpoints is much smaller and less work is lost upon a failure.</p>
+      <p>&nbsp;</p>
+      <p><strong>Changes:</strong></p>
+      <ul>
+        <li>All versions are now compiled using Visual Studio 2012. There may be slight changes in performance for all versions except the "x64 AVX ~ Hina" binary.</li>
+        <li>(Internal) - v0.6.2 now has a C++11 dependency. All prior versions of y-cruncher were compilable with only C99.        </li>
+      </ul>
+      <p><strong>Regressions:</strong></p>
+      <ul>
+        <li>Swap modes require more disk space than in v0.5.x. This is because the checkpoint-restart requires that new checkpoints are written before (or shortly after) the previous checkpoint is destroyed. The result is that most operations must be done out-of-place thus increasing memory usage.<br>
+          In v0.5.x, checkpoints were only done in places where disk usage was low. So the pressure of needing to preserve extra data was not felt. But in v0.6.2, checkpoints are everywhere - including places with high disk usage.</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug where, in some scenarios, the program will halt with "Memory Allocation Failure".</li>
+        <li>Fixed some bugs that would cause small computations to error.</li>
+        <li>Fixed tons of other minor corner-case bugs.</li>
+      </ul>
+      <p><strong>Postponed features:</strong></p>
+      <ul>
+        <li>XOP and AVX2 support has been put off until I acquire the hardware.</li>
+        <li>Euler-Mascheroni Constant hasn't been started yet. (Although I should probably do this since that's what the "y" in "y-cruncher" stands for. Doesn't do much justice for a program to be missing its mascot. :P)</li>
+        <li>Lemniscate's Constant is "extremely low priority".</li>
+      </ul>
+      <p>One thing worth noting is that the error-correction in v0.6.x is less aggressive than in v0.5.x. Version 0.6.2 relies more heavily on the new checkpoint-restart system to recover from errors. So instead of attempting to correct errors on the fly, v0.6.2 will usually just terminate the computation - thereby forcing the user to resume from the last checkpoint.</p>
+      <p>&nbsp;</p>
+      <p>Note that the error-<em>detection</em> is just as aggressive as before. It's only the error-<em>correction</em> that has been laxed.</p></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_17_2013" "=""></a>February 17, 2013</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.6.1.9282<br>
+      <br>
+      Windows Only</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>After such a long rewrite, this is the first of the <a href="http://numberworld.org/blogs/2012_3_9_a_peak_into_ycruncher_v0.6.1/">v0.6.x series</a>.
+      Not all features are implemented yet. Most notably, the majority of the constants are still missing swap mode. But it's good enough for ram-only benchmarks.</p>
+      <p>&nbsp;</p>
+      <p>This release is mostly to put an end to the nearly 2-year break of releases.</p>
+      <p>&nbsp;</p>
+      <p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>More Detailed Output:</strong> The program will display much more detailed output during a computation. This feature used to be developer and private-version only. But it is now enabled in all public releases.</li>
+        <li><strong>Component Stress-Tester:</strong> Runs individual algorithms in y-cruncher to stress different parts of the system.</li>
+        <li><strong>I/O Benchmark</strong>: Benchmarks and evaluates a swap configuration for large computations.</li>
+        <li><strong>Multi-layer Raid-File:</strong>
+          <ul>
+            <li>Hybrid RAID 0+3 swap-file management to allow for redundancy while preserving the multi-HD functionality.</li>
+          </ul>
+        </li>
+        <li><strong>Compilation Options:</strong> An option that displays how each binary has been compiled. Originally a developer-only feature for development purposes, it has been enabled in the public release to satisfy those who are curious.</li>
+      </ul>
+      <p><strong>Removed Features:</strong></p>
+      <ul>
+        <li>Batch Benchmark Pi</li>
+        <li>The  Stress-Tester from v0.5.5 and earlier.</li>
+        <li>Support for x86 without SSE3.</li>
+        <li>Basic Swap Mode</li>
+      </ul>
+      <p><strong>Changes:</strong></p>
+      <ul>
+        <li>Privilege elevation is now required to run y-cruncher. This should put an end to all those file allocation problems (which have gotten worse in Windows 8 due to the different UAC settings).</li>
+        <li>Windows Vista or higher is now required to run y-cruncher.</li>
+        <li>"Advanced Swap Mode" renamed to simply "Swap Mode".</li>
+        <li>The division step at the end of each series computation has been separated and given its own timer.</li>
+        <li>The "Frequency Sanity Check" has been disabled.</li>
+        <li>The validation files now include detailed event logs of the computation.</li>
+      </ul>
+      <p><strong>Limits:</strong></p>
+      <ul>
+        <li>All constants have a hard-limit of 90 trillion digits.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Faster Division</li>
+        <li>Faster Square Roots</li>
+        <li>Faster Base Conversion</li>
+        <li>Faster Multiplication for large products &gt; 50 billion digits</li>
+        <li>Numerous other minor optimizations</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Detection for AVX on Windows 8 has been fixed.
+          <br>
+          <br>
+        </li>
+      </ul>
+      <p><strong>Missing Features:</strong> The following features are not complete and will not be in this release. All of these exist in v0.5.5, so use that if you wish to use these features.
+      </p>
+      <ul>
+        <li>Checkpoint Restart</li>
+        <li>Swap Modes for: e, Pi, Log(n), Zeta(3), Catalan's Constant</li>
+        <li>Euler-Mascheroni Constant</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>2013 ???</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.6.x</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p>Version 0.6.x will be the first major rewrite of y-cruncher. The following changes are planned. Everything is subject to change.
+      </p>
+      <p>&nbsp;</p>
+      <p><strong>Due to the large feature set, these will be rolled out incrementally over multiple versions of v0.6.x.</strong>      </p>
+      <p>&nbsp;</p>
+      <p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong> (v0.6.1) Component Stress-Tester:</strong> Runs individual algorithms in y-cruncher to stress different parts of the system.</li>
+        <li><strong>(v0.6.1) I/O Benchmark</strong>: Benchmarks and evaluates a swap configuration for large computations.</li>
+        <li><strong>(v0.6.1) Multi-layer Raid-File:</strong>
+          <ul>
+            <li>Hybrid RAID 0+3 swap-file management to allow for redundancy while preserving the multi-HD functionality.</li>
+            <li>Failed drives can be replaced on the fly without rolling back to a checkpoint.</li>
+          </ul>
+        </li>
+        <li><strong>(v0.6.3) Lemniscate Constant:</strong> Arc-length of a lemniscate = 5.24411510858423962...</li>
+        <li><strong>(v0.6.3) Swap Mode:</strong> Added for the Euler-Mascheroni Constant.<strong><br>
+          </strong></li>
+      </ul>
+      <p><strong>Removed Features:</strong></p>
+      <ul>
+        <li>Batch Benchmark Pi</li>
+        <li>The current Stress-Tester</li>
+        <li>Support for x86 without SSE3.</li>
+        <li>Basic Swap Mode</li>
+        <li>Basic Swap Mode optimizations/algorithms*</li>
+      </ul>
+      <p><strong>Changes:</strong></p>
+      <ul>
+        <li>(v0.6.1) "Advanced Swap Mode" renamed to simply "Swap Mode".</li>
+        <li>(v0.6.2) Ramanujan's formula for Catalan's Constant will be replaced with Huvent's BBP. (and will support Swap Mode)</li>
+        <li>(v0.6.1) Completely overhauled Benchmark Validation system.</li>
+      </ul>
+      <p><strong>Limits:</strong></p>
+      <ul>
+        <li>(v0.6.1) All constants will have a hard-limit of 90 trillion digits.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li><strong>(v0.6.4) x64 XOP: </strong>Specially tuned for the AMD Bulldozer processor line. </li>
+        <li>(v0.6.1) Faster Base Conversion.</li>
+        <li>(v0.6.1) Faster Multiplication for large products &gt; 50 billion digits.</li>
+        <li>(v0.6.2) More fine-grained Checkpoint-Restart.</li>
+        <li>(v0.6.3) Raw I/O support for Linux.</li>
+        <li>Numerous other minor optimizations.      </li>
+      </ul>
+      <p>*Due to incompatibilities with new and future planned optimizations, Basic Swap Mode and the optimizations/algorithms that come with it (which are also used by Advanced Swap Mode) will be omitted in v0.6.x.</p>
+      <p>&nbsp;</p>
+      <p>This, along with the rewrite, means that v0.6.x will be the first version of y-cruncher that will not be strictly faster than an earlier version. This means that some computations, under certain situations, will actually be slower in v0.6.x than with v0.5.5.</p></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="4_6_2011"></a>April 6, 2011</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.5 Build 9180<br>
+(fix 2)<br>
+<br>
+Windows Only</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>The <strong>x64 AVX ~ Hina</strong> binary is now compatible with non-Intel processors. As a side-effect, the <strong>x64 AVX ~ Hina</strong> binary is about 1% faster on Intel processors as well.<br>
+            </li>
+        <li>The contact email address has been changed to <strong>a-yee@u.northwestern.edu</strong>.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_20_2011"></a>February 20, 2011<br>
+February 20, 2011</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.5 Build 9179<br>
+(fix 1)<br>
+<br>
+Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body">    
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a major bug in the ArcCoth code that may cause incorrect computation of all dependent constants:
+          <ul>
+            <li>Log(2)</li>
+            <li>Log(10)</li>
+            <li>Euler-Mascheroni Constant</li>
+            </ul>
+        </li>
+        </ul>
+      <p>This bug has probably been present in y-cruncher since v0.4.1.</p></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_1_2011"></a>February 1, 2011<br>
+      February 3, 2011</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.5 Alpha<br>
+    Build 9178<br><br>
+    Windows + Linux</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>Support for the new Advanced Vector Extensions (AVX) instruction set.</li>
+      </ul>
+      <p><strong>Changes:</strong></p>
+      <ul>
+        <li>All Windows binaries with SSE/AVX are now compiled using the Intel Compiler 11.1.</li>
+        <li>All Linux binaries are now compiled using GCC 4.4.5. Furthermore, all binaries are compiled as C code, not C++.</li>
+        <li>Minor changes in speed due to rewritten code.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li><strong>x64 AVX ~ Hina:</strong>
+          <ul>
+            <li>Specially tuned for the Intel Sandy Bridge Core i7 processor line.</li>
+            <li>~<strong>10%</strong> faster than x64 SSE4.1 on Sandy Bridge Core i7.</li>
+            <li>Requires Windows 7 Service Pack 1 or later.<br>
+              <br>
+            </li>
+          </ul>
+        </li>
+        <li> The final output of digits at the end of each computation is now faster.<br>
+          Note that this has no effect on benchmarks since outputting digits to disk does not count towards computation time.<br><br>
+        </li>
+        <li>The built-in Digit Viewer is now faster.</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>The Linux binaries are now statically linked.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="8_28_2010"></a>August 28, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.4 Build 9157<br>
+      (fix 1)<br><br>
+      Linux Only</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Optimizations (Linux):</strong></p>
+      <ul>
+        <li>Retuned I/O. This may or may not be faster than before. Note that raw I/Os are still not used because the current implementation is slower than using straight-forward buffered I/Os. (This is in contrary to Windows where raw I/Os are faster than buffered I/Os.)</li>
+        <li>Slightly improved speed. Added "-ffast-math" to the compile options.</li>
+      </ul>
+      <p><strong>New Features:</strong></p>
+      <ul>
+        <li>Colored console output has been added.</li>
+        <li>CPU brand detection has been added.</li>
+        <li>CPU frequency detection has been added.</li>
+        <li>Memory detection has been added.
+          <ul>
+            <li>Automatic memory selection has been enabled in Advanced Swap Mode.</li>
+          </ul>
+        </li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="8_16_2010"></a>August 16, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.4 Build 9150<br>
+(fix 1)<br><br>
+Linux - Only</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>This is the first Linux release. It is slower and does not support all the features as the Windows version, but it's a start.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="8_5_2010"></a>August 5, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.4 Build 9148<br>
+      (fix 1)</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug that would cause all computations longer than 24.8 days to trigger a "Sanity Check Error".</li>
+        <li>Fixed a bug that would cause a "Write Error" when using more than 10 drives in Advanced Swap Mode.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="8_2_2010"></a>August 2, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.4 Alpha<br>
+Build 9146</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong>
+    </p>
+      <ul>
+        <li><strong>Checkpointing:</strong> Advanced Swap Mode computations can now be interrupted and restarted at certain checkpoints. This allows large computations to survive events such as power outages and unrecoverable computational erors. It also allows computations to be paused and restarted.</li>
+      </ul>
+      <p><strong>Improvements:</strong>
+      </p>
+      <ul>
+        <li><strong>Better Error-Correction:</strong> The program is now better able to recover from computational errors. Some computational errors that were uncorrectable in previous versions are now correctable in v0.5.4.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="5_13_2010"></a>May 13, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.3 Build 9134b<br>
+      (fix 2)</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a memory leak at the end of each computation. This affects Batch Mode the most because it runs many computations in succession.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="4_26_2010"></a>April 26, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.3 Build 9133b<br>
+      (fix 1)</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in the Compute + Verify option for Euler's Constant.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="4_15_2010"></a>April 15, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.3 Alpha<br>
+Build 9132</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Changes:</strong></p>
+      <ul>
+        <li>The Stress Test feature will now run in below normal priority to increase system responsiveness.</li>
+        <li>When an error is detected in the stress test feature, both threads will stop after completing (or failing) their current tests.</li>
+        <li>These are thanks to a number of requests that I have received from some people.<br><br>
+        </li>
+        <li>When switching to Advanced Swap Mode, the program will now choose a default memory setting based on the amount of total and available physical memory that is in the system.<br><br>
+          The ability to set the memory usage in Advanced Swap Mode was less than obvious in v0.5.2. This resulted in some users using the default lowest memory setting when it could have been a lot faster to use more memory.<br><br>
+        </li>
+        <li>In the Benchmark feature, benchmark sizes that require more memory than there is available are faded out. (Though they can still be run.)<br><br>
+        </li>
+        <li>The "Validation.txt" files that the program outputs can now be customized with your name/screenname (i.e. a way to identify that the benchmark was done by you).</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Though  technically not a fix, this version adds a check that detects a bug in Windows where thread creation will sometimes return a normal return value when in fact the thread fails to be created due to insufficient memory.<br><br>
+          Previously, this would result in silent errors that would cause a computation to give incorrect digits or trigger other redundancy checks later in the program.<br><br>
+        </li>
+        <li>The sensitivity of the cheat-detection has been slightly decreased as it had been giving a lot of false positives on certain motherboards with less precise hardware timers.<br><br>
+        </li>
+        <li>Fixed an integer-overflow bug in the 32-bit binaries that would occur when writing decimal digits at the end of a computation that is larger than ~41 billion digits.<br><br>
+        </li>
+        <li>Fixed a possible stack-corruption bug for computations larger than 500 billion digits.<br>
+          <br>
+        </li>
+        <li>Fixed some minor bugs in the interface.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Algorithmic change in the final Base Conversion for all constants. The new algorithm is a partial implementation of the Scaled Remainder Tree method that was used in the current world record for Pi.
+          <ul>
+            <li>This switch provides a near 2x speed up for the conversion - or about 10% for Pi computations.</li>
+            <li>The rest of the algorithm will be put off to a later version and is expected to give another 30 - 40% speedup for the conversion.<br>
+              <br>
+            </li>
+          </ul>
+        </li>
+        <li>As a side-effect of the new conversion, the memory requirements for square roots, Golden Ratio, e, and Pi have decreased slightly.</li>
+      </ul>
+      <p><strong>New Redundancy Checks:</strong></p>
+      <ul>
+        <li>The speedups brought on by the new conversion algorithm opens up an opportunity to add some new redundancy checks to increase the reliability of the program without decreasing performance.<br><br>
+        </li>
+        <li>A verification has been added to the Base Conversion at the end of each computation.<br>
+          Though somewhat expensive, this verification is done <em><strong>after</strong></em> writing the decimal digits to disk and does not count towards the "Computation Time" parameter. Therefore it does not really count as a performance penalty.<br>
+          <br>
+          This verification is needed because of a change in algorithm for the conversion. (see "Optimizations")<br>
+          <br>
+          Unlike the old algorithm, this new algorithm is not sufficiently self-verifying. Therefore, a verification is needed to catch that any computation errors that fail to propagate to the last 100 digits. (since only the last 51 - 100 digits are checked to see if a computation is correct)<br>
+          <br>
+          This verification also gurantees that the entire base conversion has been done correctly with a certainty of 2<sup>61</sup>. (An error has a 1 in 2<sup>61</sup> chance of not getting caught.)<br>
+          <br>
+        </li>
+        <li>A verification has also been added to the "Final Multiply" for Advanced Swap Mode Pi computations using the Chudnovsky algorithm. This ensures that any computational error that fails to propagate to the last few hexadecimal digits will be caught with a certainty of 2<sup>61</sup>. This comes with a slight performance hit.<br><br>
+        </li>
+        <li>A number of new and <em><strong>extremely aggressive redundancy checks</strong></em> have been added to:
+          <ol>
+            <li>The "series" for all applicable constants except for Euler's Constant.<br>(Redundancy checks for Euler's Constant will be included in a later version.)<br><br>
+              In the future, the program will also attempt to correct for errors as well.<br>
+              <br>
+            </li>
+            <li>Newton's Method for Division and Square Roots.<br><br>
+            </li>
+            <li>Within the new Base Conversion algorithm. (This will actually attempt to correct for errors too.)<br>
+            </li>
+          </ol>
+          <ul>
+            <li>Note that the first of these does come with a noticable (but small) performance hit.</li>
+            <li>Also note that these redundancy checks (although aggressive), will still in no way guarantees that a computation that finishes will finish with the correct results. Verification of the digits will always require a separate and independent algorithm. (or from known pre-computed results)</li>
+          </ul>
+        </li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="3_10_2010"></a>March 10, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.2 Alpha 3<br>
+Build 9082</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Removed two hidden line-feed characters that were present in the validation files.<br>These were unintentional and were causing validation problems because they are non-standard and were being messed up by various text editors and viewers.<br><br>
+        </li>
+        <li>Fixed an issue that would prevent the program from being able to perform arithmetic above ~20 trillion digits. As of v0.5.2, only Square Roots and Golden Ratio are unlocked beyond 10 trillion digits. Neither of them use full size arithmetic so they will not actually fail until ~28 trillion digits.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="3_4_2010"></a>March 4, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.2 Alpha 3<br>
+Build 9074</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed an issue where the program will halt with an assertion error when it tries to print a line that is longer than 78 characters long.</li>
+        <li>Only computations larger than 10 trillion digits will be large enough to trigger this.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="3_3_2010"></a>March 3, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.2 Alpha 3<br>
+Build 9072</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Reliability Update:</strong></p>
+      <ul>
+        <li>y-cruncher now uses raw, non-buffered I/Os. This serves to bypass a number of <em><strong>MAJOR</strong></em> memory issues arising from sub-optimal OS buffering.<br>
+          <br>
+        </li>
+        <li>This primary purpose of this is to fix one MAJOR issue when handling extremely large files.<br>
+          When creating a large file for non-sequential writes, Windows will attempt to cache a "small" percentage of the file. What exactly is it caching? I have no idea, my guess is that it's trying to cache the portion of MFT that maps the file.<br><br>
+          The problem arises when that "small" percentage is <em>not that "small" anymore</em> when the swap files are terabytes large...<br><br>
+          In one of my test runs, a 2.7 trillion digit multiplication failed when the program attempted to do non-sequential writes to four 1 TB swap files (total 4 TB large). The result was that the system cache exploded which immediately triggered Windows Error Code 1450 because of insufficient virtual memory. Because of the work-around that was added in 0.5.2.9040, the program was able to continue after increasing the virtual memory size. However, it continued to thrash virtual memory for several hours before the program was terminated manually. The thrashing simply showed no signs of stopping.<br><br>
+          After diagnosing the cause of the system cache spike (which was more than 10 GB large), it was determined that it was due to the OS's stupid caching schemes. (of course it was never really designed for this kind of use...)<br>
+          <br>
+          The only true work-around to the problem was to completely avoid OS buffering by using raw I/Os.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_26_2010"></a>February 26, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.2 Alpha 2<br>
+Build 9040</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Reliability Update:</strong></p>
+      <ul>
+        <li>Added a work-around for an issue where page-thrashing can cause a Windows Error Code: 1450 (ERROR_NO_SYSTEM_RESOURCES).<br>
+          <br>
+        </li>
+        <li>This is actually not a bug in the program. It is an issue in Windows. In Advanced Swap Mode, there may be long periods of time where y-cruncher does not use all of its allocated memory. As a result, Windows will page out some (or all) of the unused portion. However, when y-cruncher finally <em>does</em> need to use it, Windows will thrash the pagefile like crazy. The resulting stall can sometimes be enough for the OS to fail an I/O with an error code 1450.<br>
+          <br>
+        </li>
+        <li>This "work-around" isn't really a work-around at all. Instead of terminating the program when it encounters an I/O error, it simply pauses and retries until it either completes sucessfully, or the user decides to kill the program because something else is clearly wrong. This may also give other types of I/O failures another chance in case of a random failure of some sort.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_25_2010"></a>February 25, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.2 Alpha 2<br>
+Build 9037</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed an issue that may prevent extremely large computations from working properly when a low memory cap is selected.<br><br>
+        </li>
+        <li>This is an issue in the 5-step convolution algorithm for squaring. This does not affect 5-step convolution for multiplication. Not all cases of squaring via 5-step convolution are affected. Only when the memory selection is very low does it occur. (3.3 trillion digits using less than 8GB of ram will trigger this.)<br>
+          <br>
+        </li>
+        <li>When this issue is triggered, one of two things may happen:
+          <ol>
+            <li>The program will be tricked into using 3-step convolution - which may result in extreme performance degradation.</li>
+            <li>The program will terminate with an error stating that there is insufficient memory.</li>
+          </ol>
+        </li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="2_23_2010"></a>February 23, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.2 Alpha<br>
+Build 9025</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>MAJOR fix to Advanced Swap Mode. This version fixes an issue that was causing a major performance degradation in Advanced Swap Mode.<br>
+          <br>
+        </li>
+        <li>The source of this is because of slight differences between the public releases and the private betas.<br><br>
+          Generally speaking, only the internal builds of the program are tested. Those internal builds have extra code in them that displays detailed debugging information. None of this code is compiled in the public releases.<br><br>
+          It just unfortunately turns out that there was some "required" code that was accidentally put with the debugging code. So it was not compiled in the public versions for v0.5.2.9021.<br><br>
+          This build fixes those errors.
+        </li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>February 23, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.5.2 Alpha<br>
+    Build 9021</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>Advanced Swap Mode:</strong>
+          <ul>
+            <li>Yeah, it's about time... This is probably the only thing that matters in this version. :P</li>
+            <li>Allows large computations to be done using very little ram.<br><br>
+            </li>
+            <li>Full support for multiple hard drives: Although this may seem redundant of Raid 0, it allows for unlimited drives. This serves to overpass limitations imposed by Raid 0. (which are usually limited to 4 - 6 drives)<br><br>
+              Total bandwidth scales linearly with the # of drives, but bottlenecked by the slowest drive. This is potentially better than Raid 0 in some cases. You will need to play with the settings to achieve the optimal combination of Raid 0 and the multi-hard drive setting in y-cruncher.<br>
+              (For example: 3 x 4-way Raid 0 vs. 4 x 3-way raid 0.)<br><br>
+            </li>
+            <li>Note that this is a very primitive version of Advanced Swap Mode. It has also yet to be burn-in tested so it's potentially very buggy. And lastly, it isn't supported for all constants and algorithms yet.<br><br>
+              The x86 versions now use 64-bit indexing for Advanced Swap Mode. So they should be clear for computations greater than 20 or 41 billion digits (which are the respective limits for signed and unsigned 32-bit indexing).<br>
+              However, I have yet to test them above those sizes so they may still fail if there are any remaining 32-bit indexes that should have been converted to 64-bit.<br><br>
+              The x64 versions have always used 64-bit indexing for everything, so they are clear for all sizes up to the theoretical limit of the program.<br>
+              <br>
+              Future improvements should include:
+              <ul>
+                <li>Reduced total disk memory usage.</li>
+                <li>Reduced # of disk I/Os.</li>
+                <li>Checkpointing and crash-recovery.</li>
+                <li>Support for all constants and algorithms.</li>
+                <li>A 3rd algorithm for Catalan's Constant. The current secondary algorithm is extremely I/O bound due to its use of the AGM (Arithmetic Geometric Mean).<br>
+                  <br>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><strong>New Validation Scheme:</strong>
+          <ul>
+            <li>The validation now provides much more detail than in the previous versions.<br>
+              <br>
+            </li>
+            <li>All computations are now validated.
+              <ul>
+                <li>All constants. Not just Pi.</li>
+                <li>All algorithms.</li>
+                <li>All computation modes.<br>
+                  <br>
+                </li>
+              </ul>
+            </li>
+            <li>Even failed computations and benchmarks are validated. They will simply be marked as "failed" in the validation certificate.</li>
+            <li>The validator is now easier to use. Just upload the file. No more manually entering fields.<br>
+            </li>
+            <li>Only the benchmark feature for Pi will be able to auto-verify the computed digits. But the last 50-100 digits that are computed will be included in the validation so that they can be verified using external sources.</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Memory estimation is more accurate. (Previously, it would underestimate actual memory usage by as much as 50MB.)</li>
+        <li>The Stress Test feature will no longer over-shoot the target memory usage by about 50MB. (Same bug as above.)</li>
+        <li>When entering a write path or a swapfile path, the program will now actually check to see if the path is valid and writable.</li>
+        <li>Fixed the timers in the "Compute + Verify" option for e.</li>
+      </ul>
+      <p><strong>Limits:</strong></p>
+      <ul>
+        <li>Advanced Swap Mode without raising the limits of the program is kinda useless:
+          <ul>
+            <li>The limits for <strong>e</strong>, and <strong>Pi</strong> have been raised to <strong>10 trillion digits</strong>.</li>
+            <li>The limits for <strong>Log(2)</strong>, <strong>Log(10)</strong>, and <strong>Zeta(3)</strong> have been raised to <strong>1 trillion digits</strong>.</li>
+            <li>The limits for <strong>Catalan's Constant</strong>, and <strong>Euler's Constant</strong> have been raised to <strong>250 billion digits</strong>.<br>
+              <br>
+            </li>
+          </ul>
+        </li>
+        <li>Note that these limits are well above the current world records for each respective constant. (At the time of this writing.)<br><br>
+          So feel free to attempt a world record if you have the resources. But bare in mind that the program has NOT been tested at these sizes. So there is no guarantee that it will function correctly.<br>
+          <br>
+          I can no longer afford to tie up my machines for extended periods of time, so I can't do anymore long running computations on my own machines.<br>
+          <br>
+        </li>
+        <li>The x86 versions are all limited to  80 billion digits. This is because computations above that size become extremely inefficient without using more than 2GB of ram (which is the limit for x86).<br>
+          <br>
+          Internally, x86 versions are capable of performing much larger computations than a mere 80 billion digits. But it would be completely impractical to do so without the use of SSDs (Solid State Disks) - which is not recommended anyway because of write-wear.<br>
+          <br>
+        </li>
+        <li>As with the previous few releases, <strong>Square Roots</strong> and <strong>Golden Ratio</strong> have no limit.<br>
+          They are capped at 90 trillion digits to give a couple orders of safety margin before reaching the precision limit of 64-bit floating-point - which is the true theoretical limit of the program.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>All x64 binaries are now a bit faster. (16 register tuning)
+          <ul>
+            <li>Prior to this version, the vast majority of performance-critical code was written on x86 and tuned for 8 GP and SSE registers - which is sub-optimal for x64. The x64 binaries for this version are better tuned for 16 registers (GP and SSE).</li>
+            <li><strong>5 - 12%</strong> faster on AMD K10.</li>
+            <li><strong>2 - 6%</strong> faster on Core 2.</li>
+            <li><strong>2 - 5%</strong> faster on Core i7.</li>
+            <li>The speed of the x86 binaries is unchanged since v0.4.4.</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>This version is <strong>not</strong> speed consistent with v0.4.3 - v0.4.4 (which have become semi-standardized). Furthermore, this version will likely be the first in a series of successive optimizations. Therefore the use of v0.5.x for competitive benchmarking should be held back until the speed of the program stabillizes.<br><br>
+        </li>
+        <li>Advanced Swap Mode opens the possibility for hard drive benchmarking. But this will be heavily biased towards machines with a lot of ram and a lot of hard drives (or SSDs) running in parallel.<br><br>
+          (Which could turn into a competition of who has the "most" hardware - rather than who has the "best" or "best tweaked" hardware...)</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="1_6_2010"></a>Janurary 6, 2010</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.4.4 Build 7762b<br>
+(fix 2)</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed the benchmark validator.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="12_2_2009"></a>December 2, 2009</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong>0.4.4 Build 7760<br>
+      (fix 1)</strong></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>The last 50 - 100 digits are printed out at the end of a computation.</li>
+        <li>The Compute + Verify modes for all constants that support it will now actually compare the digits from the computation and verification runs to see if they do indeed match. This auto-compare already existed in v0.1.0 - v0.2.1, but was taken out completely from v0.3.1 onwards. This release re-enables this feature. But for the sake of efficiency and ease of implementation, it only compares the last few digits of the two runs to determine if the computations match (whereas v0.1.0 - v0.2.1 compared ALL the digits).</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in the CPU consumption and utilization %'s.</li>
+        <li>Fixed some minor bugs in the x86 binaries.</li>
+      </ul>
+      <p><strong>Changes:</strong></p>
+      <ul>
+        <li>The CPU consumption and utilization measurements no longer include the time needed to write digits to disk. They now only measure the actual computation time. Writing digits to a slow disk had the effect of drastically lowering utilization and efficiency %'s leading some to beleve that the program is a lot less efficient than it really is. Enabling vs. disabling hexadecimal output also had a huge effect on the measurements.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><strong><a name="11_18_2009"></a>November 18, 2009</strong></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.4.4 Build 7748</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>New specially tuned binary for AMD K10 Processors.</li>
+        <li>Start and end dates have been added to computations. (Useful for those extra long computations.)</li>
+        <li>CPU utilization and multi-core efficiency statistics have been added.</li>
+        <li>Added an "Advanced Options" section. The benchmark validator has been moved there.</li>
+        <li>Users who are running an x86 OS on an x64 SSE3 capable system will be informed.</li>
+        <li>Added detection support for AVX and FMA instruction sets. </li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li><strong>x64 SSE3 ~ Kasumi:</strong>
+          (Credit to Raymond Chan.)  
+          <ul>
+            <li>Specially tuned for Phenom II X4.</li>
+            <li><strong>0.5 - 2 %</strong> faster than v0.4.3 (x64 SSE3) on Phenom II X4.</li>
+          </ul>
+        </li>
+        <li>Slightly faster Log(2), Log(10), and Euler's Constant.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="9_29_2009"></a>September 29, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.4.3 Build 7681</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>Colored Console Output:</strong>
+          <ul>
+            <li>Slightly less dull-looking than previous versions. :)</li>
+          </ul>
+        </li>
+        <li><strong>Automatic Version Detection:</strong>
+          <ul>
+            <li> Launch Executable. It will automatically choose the best version of the program to run. </li>
+          </ul>
+        </li>
+        <li><strong>Validated Batch Benchmarks:</strong>
+          <ul>
+            <li>Standard and SuperPi-sized batch benchmarks now provide validation.</li>
+          </ul>
+        </li>
+        <li><strong>Stronger Anti-Tampering Protection:</strong>
+          <ul>
+            <li>Binaries that have been tampered with will not run.
+            </li>
+            <li>Helps guard against validation cracking via modding the executables.</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in the Digit Compare feature.      </li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li><strong>All Binaries:</strong>
+          <ul>
+            <li>All SSE binaries are now compiled using the Intel Compiler.</li>
+            <li>Numerous
+              internal optimizations.</li>
+            <li>Status refreshing has been capped to once/second to reduce printing overhead for small benchmarks.</li>
+          </ul>
+        </li>
+        <li><strong>x64 SSE4.1 ~ Ushio:</strong>
+          <ul>
+            <li>Specially tuned for Core i7.</li>
+            <li><strong>5 - 18%</strong> faster than v0.4.2 (x64 SSE3) on Core i7.</li>
+          </ul>
+        </li>
+        <li><strong>x64 SSE4.1 ~ Nagisa:</strong>
+          <ul>
+            <li>Specially tuned for Harpertown.</li>
+            <li><strong>0 - 12%</strong> faster than v0.4.2 (x64 SSE3) on 2x Harpertown.</li>
+          </ul>
+        </li>
+        <li><strong>x64 SSE3:</strong>
+          <ul>
+            <li>Retuned for a smaller cache.
+              (Previously tuned for 3MB cache/thread.)</li>
+            <li>Speed up vs. v0.4.2 (x64 SSE3) varies by processor. (Typically around <strong>5 - 10%</strong>)</li>
+          </ul>
+        </li>
+        <li><strong>x86 SSE3:</strong>
+          <ul>
+            <li>Retuned for a smaller cache.
+              (Previously tuned for 2MB cache/thread.)</li>
+            <li>Much improved multi-core efficiency for small computations. </li>
+            <li><strong>15 - 50%</strong> faster depending on computation size.</li>
+            <li>Single-threaded timings are now competitive with PiFast 4.3.</li>
+          </ul>
+        </li>
+        <li><strong>x86:</strong>
+          <ul>
+            <li>Retuned for a smaller cache. 
+              (Previously tuned for 2MB cache/thread.)</li>
+            <li>Much improved multi-core efficiency for small computations.</li>
+            <li><strong>10 - 40%</strong> faster depending on computation size.        </li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Overall:</strong></p>
+      <ul>
+        <li>This is the first release dedicated primarily to optimizations. There are few functional changes.</li>
+        <li>Note that the binaries have gotten a lot larger since v0.4.2. This is because the Intel Compiler does more aggressive optimizations than the Visual Studio Compiler.</li>
+      </ul></td>
+    </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="8_10_2009"></a>August 10, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.4.2 Build 7438</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>Batch mode option for running automated benchmarks.</li>
+        <li>Stress Testing option for stability checking and burn-in testing.</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Corrected the name for the secondary formula for Catalan's Constant.</li>
+        <li>Corrected some spelling errors.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="7_24_2009"></a>July 24, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.4.1 Build 7412 (fix 1)</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a major bug in the Basic Swap mode for the x64 binaries.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="7_24_2009"></a>July 22, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.4.1 Build 7409</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed an issue where a "Sanity Check Error" would sometimes occur for extremely fast benchmarks that take less than a few seconds.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+    </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="7_20_2009"></a>July 20, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.4.1 Build 7408</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Constants:</strong></p>
+      <ul>
+        <li>Square Root of any small integer</li>
+        <li>Golden Ratio</li>
+        <li>e</li>
+      </ul>
+      <p><strong>New Features:</strong></p>
+      <ul>
+        <li>Added "SuperPi" sized benchmarks:
+          <ul>
+            <li>1M, 2M, 4M, etc... up to 128G.</li>
+          </ul>
+        </li>
+        <li>Existing benchmarks have been extended to 100b.
+          <ul>
+            <li>To satisfy those who have access to server-racks and super-computers... Don't even try these on a desktop... :)</li>
+          </ul>
+        </li>
+        <li>Digit Compare is back and with full support for compressed digits.</li>
+        <li>Compute and Verify is back for the constants that benefit
+          from reusing 
+          steps.
+          <ul>
+            <li>e</li>
+            <li>Log(2) and Log(10)</li>
+            <li>Euler's Constant</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a bug in the secondary formula for Euler's Constant where it would sometimes terminate with an "Allocation Failure" even when there is plenty of memory.</li>
+        <li>Fixed a bunch of bugs in the x86 binaries...</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Minor speed-ups in a few random places.</li>
+      </ul>
+      <p><strong>Limits:</strong></p>
+      <ul>
+        <li>Thread limit has been increased from 64 to 256 threads.</li>
+        <li>200 billion digits for Square Roots, Golden Ratio, e, and Pi.</li>
+      </ul>
+      <p><strong>Other:</strong></p>
+      <ul>
+        <li>A lot of code has been rewritten and retuned in preparation for some future features. So there may be some minor speed differences for all computations.        </li>
+        <li>Dropped support for x64 without SSE3.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="5_14_2009"></a>May 14, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.3.2 Alpha<br>
+Build 6953 (fix 1)</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a major bug in the digit viewer where it may incorrectly view compressed decimal digits in .ycd files larger than ~2 GB.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="4_30_2009"></a>April 30, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.3.2 Alpha<br>
+    Build 6945</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li>Added a single-threaded mode for Benchmarks.</li>
+        <li>Minor improvements to benchmark validation.</li>
+        <li>Benchmark validation is now slightly more resistant to cheating.</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Computations now require less memory. (~20% for Pi, less so for other constants)
+          <ul>
+            <li>The 2.5b, 5b, and 10b benchmarks will just barely fit into 12GB, 24GB, and 48GB of ram respectively - perfect for triple channel Nehalem systems.</li>
+          </ul>
+        </li>
+        <li>The % complete status now has a bit more resolution.</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>The error-correction feature has been fixed. In benchmark mode, errors will automatically fail a benchmark even if the error is recoverable.</li>
+        <li>Some inconsistencies with the reported cpu frequency have been fixed. Note that the incorrect readings on multiplier-jacked CPUs have NOT been fixed yet.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="4_17_2009"></a>April 17, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.3.1 Alpha<br>
+    Build 6897</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Features:</strong></p>
+      <ul>
+        <li><strong>Benchmark Validation and Anti-cheat protection.
+          </strong>
+          <ul>
+            <li>Pre-set sizes for validated benchmarks:
+              <ul>
+                <li>x86: 25m, 50m, 100m, and 250m</li>
+                <li>x64: 25m, 50m, 100m, 250m, 500m, 1b, 2.5b, 5b, and 10b
+                  <ul>
+                    <li>The larger benchmarks will require a LOT of ram. New Challenge!</li>
+                    <li>How high can you overclock while maintaining a full ram configuration?</li>
+                    <li>How high can you overclock a fully-loaded workstation?</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Benchmark computations will be verified against known digits to ensure that they are correct.</li>
+            <li>Anti-clock tampering protection.
+              <ul>
+                <li>Timings now use hardware clocks - which are more accurate and cannot be tampered with via system clock.</li>
+                <li>Try to tamper with the clocks (there's more than one), and it will fail validation.</li>
+              </ul>
+            </li>
+            <li>Validation Checksum
+              <ul>
+                <li>Checksums are computed from Benchmark Time, CPU frequency, CPU type... (among other things).</li>
+                <li>Protects against output tampering.</li>
+                <li>Protects against system substitution. (transfering the output of a valid benchmark from a faster computer to a slower one)</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><strong>New Layout for Option Selection
+          </strong>
+          <ul>
+            <li>The program starts with a set of default options - which can be changed manually. This avoids all the option selection from the previous versions.</li>
+            <li>Auto-detect # of threads.</li>
+            <li>Shows estimated disk usage for swap computations.</li>
+            <li>Output path can be now be specified.</li>
+          </ul>
+        </li>
+        <li><strong>Compressed Digit Format
+          </strong>
+          <ul>
+            <li>Hexadecimal digits will compress to 50% of text-file size.</li>
+            <li>Decimal digits will compress to roughly 42% of text-file size.</li>
+            <li>Compressed digits can be read directly by the new digit viewer.</li>
+            <li>Compressed digits can be split into smaller files and accessed individually by the digit viewer.</li>
+            <li>This feature is already present in the new Digit Viewer. Version 0.3.1 fully integrates it.</li>
+          </ul>
+        </li>
+        <li><strong>Euler's Constant</strong> can now be computed to any # of digits. (They were locked to specific sizes in the previous versions.)</li>
+        <li><strong>Compute and Verify + File Compare</strong> have been temporarily disabled as they need to be updated to support the new compessed digit format.</li>
+      </ul>
+      <p><strong>Overall:</strong></p>
+      <ul>
+        <li>This release consists of mostly interface changes. No optimizations. No bug fixes.</li>
+      </ul></td>
+  </tr>
+  <tr class="table-changes-left">
+    <td colspan="4" valign="top" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="4_10_2009"></a>April 10, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.2.1 Alpha<br>
+    Build 6841</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>New Constants:</strong></p>
+      <ul>
+        <li>Log(10)</li>
+        <li>Zeta(3) - Apery's Constant</li>
+        <li>Catalan's Constant</li>
+      </ul>
+      <p><strong>Fixes:</strong></p>
+      <ul>
+        <li>Fixed a pagefile thrashing problem when writing digits at the end of a large computation that used all the ram in a computer.</li>
+        <li>FFT setttings have been pulled back to more conservative levels. This comes at a slight speed penalty, but is necessary to ensure reliability.</li>
+        <li>Fixed some errors that were caused by the program being a little bit too aggressive with multi-threading. This also comes at a slight speed penalty.</li>
+        <li>Added an extra redundancy check for base conversions. (see below)*</li>
+      </ul>
+      <p><strong>Optimizations:</strong></p>
+      <ul>
+        <li>Faster "Compute and Verfy" for Log(2) via a better pair of Machin Formulas.</li>
+        <li>Improved multi-core efficiency. Barely noticable on dual-core but obvious improvement on 8-core. (Nearly 10% improvement in some cases on 8-core.)</li>
+        <li>Basic Swap Mode is now a bit faster and requires only half the memory from before. </li>
+      </ul>
+      <p><strong>Size Limits:</strong></p>
+      <ul>
+        <li>x86
+          <ul>
+            <li>466 million digits for Euler's Constant</li>
+            <li>840 million digits for all other constants</li>
+          </ul>
+        </li>
+        <li>x64
+          <ul>
+            <li>29.8 billion digits for Euler's Constant</li>
+            <li>31 billion digits for all other constants</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>Overall:</strong></p>
+      <ul>
+        <li>This second release (as well as the next few) consists mainly of new features and bug fixes. There won't be much in the way of optimizations. Therefore, the next few releases won't be much faster (and maybe even a bit slower if certain bugs fixes necessitate it). I'll make up for it when I start doing optimizations.</li>
+      </ul>
+    <p>*This extra redundancy check is needed to close a small weakness in the method that y-cruncher uses to verify its base conversions.<br>
+      <br>
+      In order to understand the following paragraph, you must be familiar with radix conversions on floating point numbers.<br>
+  <br>
+      For a record size computation to qualify as a new world record, it must be verified.<br>
+      y-cruncher performs a base conversion on a number by first normalizing it to an integer, and then base converting the integer.<br>
+      The current method of verifying a base conversion is to do it twice using different cutting parameters and apply a modular hash check on the final (integer) base conversion. However, I have found that the powering stage of the normalization step goes through much of the same arithmetic even with different cutting parameters. This opens up a weakness. Since the base conversion is done twice, any hardware errors will be caught. However, if there is a bug (programmer or compiler error) that affected the normalization, it may result in the same incorrect answer for both conversions because of the "shared" arithmetic (and thus pass final verification).<br>
+      To close this weakness, I have added a modular hash check to the powering stage of the normalization. All existing records that have been set prior to this change should still be fine because y-cruncher already has redundancy checks built into its multiplication. And of course, the digits agree with previous records.</p></td>
+  </tr>
+  <tr valign="top" class="table-changes-left">
+    <td colspan="4" bordercolor="#F0F0F0"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong><a name="1_19_2009"></a>January 19, 2009</strong></div></td>
+    <td valign="top" bordercolor="#F0F0F0" class="table-changes-left"><div><strong>0.1.0 Alpha<br>
+    Build 6013</strong></div></td>
+    <td bordercolor="#F0F0F0">&nbsp;</td>
+    <td bordercolor="#F0F0F0" class="table-changes-body"><p><strong>Initial Constants:</strong></p>
+      <ul>
+        <li>Pi</li>
+        <li>Log(2)</li>
+        <li>Euler-Mascheroni Constant</li>
+      </ul>
+      <p><strong>Initial Features:</strong></p>
+      <ul>
+        <li>Versions: x86, x86 SSE3, x64, and x64 SSE3</li>
+        <li>Basic Swap Mode</li>
+        <li>Multi-Threading</li>
+        <li>Multi-Hard Drive</li>
+        <li>Semi-Fault Tolerance</li>
+      </ul>
+      <p><strong>Size Limits:</strong></p>
+      <ul>
+        <li>x86
+          <ul>
+            <li>233 million digits for Euler's Constant</li>
+            <li>420 million digits for all other constants</li>
+          </ul>
+        </li>
+        <li>x64
+          <ul>
+            <li>7.4 billion digits for Euler's Constant</li>
+            <li>10 billion digits for all other constants</li>
+          </ul>
+        </li>
+      </ul></td>
+  </tr>
+</tbody></table>
+</div>
+<p><br>
+</p>
+<p><br></p>
+</div>
+
+
+</body></html>
